@@ -1,0 +1,547 @@
+
+@font-face {
+    src: url(../fonts/SoloistHalftone2-x2a5.otf);
+    font-family: SoloistHalftone2-x2a5;
+}
+@font-face {
+    src: url(../fonts/SoloistAcademy-j65M.otf);
+    font-family: SoloistAcademy-j65M;
+}
+
+html {
+    height: 100%
+}
+
+body {
+    
+margin:0;
+background-color: #070803;
+background: url(../images/vader.jpg) black fixed;
+background-repeat: no-repeat;
+width: 100%;
+min-height: 100%;
+color:aqua;
+
+}
+s {
+    text-decoration: red line-through;
+}
+
+
+.link-title{
+    
+    text-decoration: none;
+    font-size: 7vw;
+    color: #f7be0e;
+    font-family: SoloistHalftone2-x2a5,"Georgia";
+    text-shadow : 0px 0px 10px black;
+/*    border: 1px solid blue;*/
+   
+ 
+  
+ 
+}
+#head-title {
+position: relative;   
+width: 100%;
+text-align: center;
+top: 40%;
+
+    
+
+}
+#head-quote h3 {
+    text-decoration: none;
+    font-size: 3vw;
+    color: #f7be0e;
+    font-family: "Arial Black";
+    text-shadow : 0px 0px 10px black; 
+    margin: 4px;
+/*    border: 2px solid red;*/
+    position: absolute;
+    bottom: 0;
+    
+    
+    
+}
+
+.header {
+
+    width: 100%;
+    height: 30vw; 
+    position: relative;
+    background-image: url(../images/header.jpg);
+    background-size: cover
+
+    }
+
+.container {
+    width:100% ;
+    margin:0 auto;
+    background:url(../images/vader-blur.jpg) black fixed;
+    background-repeat: no-repeat;
+    box-shadow: 0px 50px 40px 20px blue ;
+   
+    
+
+}
+
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: minmax(30px,auto);
+    justify-items: center;
+    align-items: center;
+    background: red;
+    box-shadow: 0px 0px 10px 1px red;
+    
+}
+
+.navlinks {
+    
+ color:whitesmoke;
+ text-decoration: none;
+ font-size: 3vw;
+ font-family: "Lucida Bright", serif;
+ text-shadow: 0px 200px 200px blue;
+/* border: 2px solid;*/
+ padding: 7px;
+ position: relative;
+ z-index: 999;
+    
+}
+
+.navlinks:hover {
+    
+    
+    color:black;
+    text-decoration: none;
+    text-shadow: 0px 0px 20px green; 
+    
+    
+}
+/*//////////////////////////////////SIDE BAR//////////////////////////////////*/
+aside {
+    display: none;
+     
+}
+/*////////////////////////////////////////////////////////////////////////////*/
+
+.main h1{
+margin:8;
+color:#f7be0e;
+font-size: 24px;
+font-family: "Lucida Bright",serif;
+font-weight: normal;
+}
+.main h2 {
+    margin-top: 0;
+}
+
+
+.main {
+    
+    padding: 10px 10px 30px 10px;
+    color:#f7be0e;
+    font-family: "Georgia";
+    font-size: 16px;
+    text-emphasis: justify;
+    
+}
+
+
+
+#home-image img {
+
+max-width: 100%;
+
+}
+
+
+a {
+    
+    text-decoration-line: none;
+    color:#f99224;
+}
+
+a:hover {
+    
+    color:red;
+    text-decoration-line:none;
+        
+}
+
+footer {
+
+    padding: 6px 40px 6px 40px;
+    background-image:linear-gradient(to bottom,red,white,red);
+    font-family: "Lucida Sans Unicode";
+    font-size: 2.5vw;
+    text-decoration:right;
+    box-shadow: 5px 0px 30px 12px red ;
+    border-radius: 0px 50px 50px 0px;
+    text-shadow: 0px 0px 0px red;
+    color: black;
+    clear:both;
+    object-position:bottom ;
+    position: relative;
+}
+
+footer:hover {
+    
+  box-shadow: 5px 0px 30px 17px red ;    
+}
+
+
+footer a {
+    color: black;
+    text-shadow: 0px 0px 0px red; 
+}
+
+
+.separator {
+    
+    color:black;
+    font-size: 11px;
+}
+
+
+
+/*///////////////////////////////TABLET SIZE///////////////////////////////////*/
+
+
+ @media only screen and (min-width: 600px) {
+
+
+
+/*//////////////////////////////////SIDE BAR//////////////////////////////////*/
+aside {
+    display: block;
+    float:left;
+    width: 150px;
+    padding: 20px 0px 20px 15px; 
+}
+
+#side-logo-pic {
+    
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.side-bar-title {
+font-family: SoloistAcademy-j65M,"Georgia" ;
+margin-top: 0px;
+font-size: 26px;
+font-weight: normal;
+
+}
+
+#side-division {
+    width: 80%;
+    border:1px solid #f0bc1d;
+    margin: 0 auto;  
+}
+
+aside h1 {
+ color:#f7be0e; 
+ text-align: center;
+
+}
+#facts p {
+color: deepskyblue;
+    
+}
+#quotes p {
+    color: bisque;
+    
+}
+#quotes q {
+    color: orange
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////*/
+
+
+.main {
+    margin-left: 180px;
+
+}
+
+#home-image  {
+margin-left: 180px;
+padding-left: 10px;
+
+}
+
+
+
+footer:hover {
+    
+  box-shadow: 5px 0px 30px 17px red ;    
+}
+
+}
+
+
+
+
+
+
+/*///////////////////////////////////////DESKTOP SIZE//////////////////////////////*/
+
+
+
+
+@media only screen and (min-width: 768px) {
+
+.link-title { 
+    
+    font-size: 55px;
+
+}
+
+#head-quote h3 {
+   
+    font-size: 22px;
+
+}
+
+.header {
+
+    width: 750px;
+    height: 240px;
+    margin: 0 auto;
+    
+    }
+    
+.container {
+    width:750px ;
+    margin:0 auto;
+}
+
+
+.menu {
+    display: block;
+    height: 30px;
+    padding-left: 50px;
+}
+
+.navlinks {
+    
+ font-size: 20px;
+ line-height: 30px; /*ovaj atribut mora biti jednak kao i height u .menu kako bi tekst u navbaru bio vertikalno centriran*/
+ margin-left: 20px;
+    
+}
+
+
+footer {
+
+    font-size: 12px;
+    
+}
+    #homelink {
+        float: right;
+    }
+
+  
+}
+/*---------------------------------------------------- CHARACTERS PAGE-----------------------------*/
+
+#luke-skywalker,#darth-vader,#han-solo,#r2d2-droid {
+/*    border: 2px solid green;*/
+    float: left;
+    
+}
+
+ #characters-page span {
+   color: #d2ef58;
+}
+
+.character-name {
+    text-align: center;
+    margin: 5px
+}
+
+/*//////////////////////////LUKE SKYWALKER///////////////////*/
+  #luke-img  {
+    
+     float: left;
+     height:auto;
+     width: 100%;
+     box-shadow: 0px 0px 15px 1px green;
+     border-radius: 10px 10px 10px 10px;
+     margin-bottom: 10px;
+     margin-top: 10px;
+  
+}
+
+
+#profile-info-luke  {
+    float: right;
+    height: auto;
+    width: 42%; 
+    color: green;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-left: 10px;
+   
+}
+
+.description-luke {
+    
+
+margin-bottom: 10px;
+text-align: justify;
+}
+
+
+/*//////////////////////////DARTH VADER///////////////////*/
+
+
+#vader-img {
+     
+    
+     height:auto;
+     width: 100%;
+     box-shadow: 0px 0px 15px 1px red;
+     border-radius: 10px 10px 10px 10px;
+     margin-bottom: 10px;
+     margin-top: 5px;
+ 
+}
+#profile-info-vader  {
+    float: right;
+    clear: right;
+    height: auto;
+    width: 42%; 
+    color: red;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-left: 10px;
+    
+    
+}
+.description-vader {
+  margin-bottom: 10px;
+  text-align: justify;
+
+}
+/*//////////////////////////HAN SOLO///////////////////*/
+
+  #solo-img  {
+    
+    
+     height:auto;
+     width: 100%;
+     box-shadow: 0px 0px 15px 1px #f7ce65;
+     border-radius: 10px 10px 10px 10px;
+     margin-bottom: 10px;
+     margin-top: 10px;
+  
+}
+
+
+#profile-info-solo  {
+    float: left;
+    height: auto;
+    width: 42%; 
+    color: #f7ce65;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-right: 10px;
+   
+}
+
+
+.description-solo {
+margin-bottom: 10px;
+text-align: justify;
+}
+/*//////////////////////////R2D2///////////////////*/
+  #r2d2-img  {
+    
+     float: left;
+     height:auto;
+     width: 100%;
+     box-shadow: 0px 0px 10px 2px silver;
+     border-radius: 10px 10px 10px 10px;
+     margin-bottom: 10px;
+     margin-top: 5px;
+  
+}
+
+
+#profile-info-r2d2 p  {
+    float: right;
+    height: auto;
+    width: 42%; 
+    color: silver;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-left: 10px;
+    float: right;
+    padding: 6px;
+    padding-top: 9px;
+}
+
+.description-r2d2 {
+
+margin-bottom: 10px;
+text-align: justify;
+
+}
+
+/********************************************CONTACT*********************************************/
+
+#contact-page .main h1 {
+    
+    text-align: center;
+    margin-bottom: 20px;
+}
+.label {
+ display: block;
+    margin-bottom: 4px;
+}
+#form input {
+    width: 100%;
+    border-radius: 5px;
+    background:linear-gradient( to right,white,red);
+    height: 20px;
+    box-shadow: 0px 0px 10px 1px red;
+}
+#form textarea {
+  background:linear-gradient( to right,white,red);  
+  width: 100%;
+  box-shadow: 0px 0px 10px 1px red;
+  border-radius: 5px;
+}
+#contact-page #form {
+    
+
+    padding: 15px;  
+    width: 80%;
+    margin: 0 auto;
+}
+
+.button {
+   
+border-radius: 2px;
+font-family: "Lucida Bright",serif;
+color:#f7be0e;
+background-color: rgb(34, 21, 21, 0.7) ;
+border: 1px solid red;    
+box-shadow: 0 0 10px 1px red;
+cursor: pointer;
+    
+}
+.button:hover {
+ box-shadow: 0 0 15px 2px red;      
+}
+[type="reset"] {
+    float:right;
+}
+
+
+
